@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 100px
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    transition: all .5s;
+    perspective: 500
+}
+
+img:hover {
+    width: 230px;
+    height: 230px;
+    border-radius: 115px
+}
+
+span {
+    font-size: 30px;
+    position: relative;
+    top: -75px
+}
+
+.label {
+    font-size: 80px;
+    text-align: center;
+    position: static;
+    top: 0px;
+}
